@@ -5,7 +5,6 @@
 - Livros
 - Jogos
 - Musicas
-- Programação
 - coisas geek em geral :)
 
 ## 📅 Hobbies
