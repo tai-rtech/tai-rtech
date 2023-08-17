@@ -1,5 +1,5 @@
 <h1 align="center">Oi 👋 eu me chamo Tais 
-<h3 align="center">Sou uma estudante de psicologia e jovem aprendiz</h3>
+<h3 align="center">Sou uma estudante de psicologia e jovem aprendiz na foundever</h3>
 
 ## 💬 Assuntos que tenho interesse 
 - Livros
