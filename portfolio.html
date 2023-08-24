@@ -4,59 +4,47 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <style>
-        /* Reset some default styles for consistency */
-        body, h1, h2, p, ul, li {
-            margin: 0;
-            padding: 0;
-        }
-
         body {
             font-family: Arial, sans-serif;
-            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
         }
 
         header {
             background-color: #333;
             color: #fff;
             text-align: center;
-            padding: 2rem;
+            padding: 1rem;
         }
 
-        section {
-            margin: 2rem;
-            padding: 1.5rem;
-            background-color: #fff;
+        .info, .interests, .hobbies, .currently-reading, .music, .contact {
+            margin: 1rem;
+            padding: 1rem;
+            border: 1px solid #ccc;
             border-radius: 5px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
 
-        h2 {
+        .info h2, .interests h2, .hobbies h2, .currently-reading h2, .music h2, .contact h2 {
             color: #333;
-            margin-bottom: 1rem;
         }
 
         ul {
-            list-style-type: none;
-            padding-left: 1.5rem;
+            list-style: disc;
+            padding-left: 2rem;
         }
 
-        li {
-            margin-bottom: 0.5rem;
+        .contact img {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
         }
 
-        a {
-            color: #007bff;
-            text-decoration: none;
-        }
-
-        a:hover {
-            text-decoration: underline;
-        }
-
-        .contact {
-            border-top: 1px solid #ccc;
-            padding-top: 1.5rem;
-            margin-top: 2rem;
+        .linkedin-logo {
+            width: 20px;
+            height: 20px;
+            vertical-align: middle;
+            margin-right: 5px;
         }
     </style>
     <title>Read Me - Tais</title>
@@ -66,6 +54,16 @@
         <h1>Oi 👋 eu me chamo Tais</h1>
         <p>Sou uma estudante de psicologia e jovem aprendiz na foundever</p>
     </header>
+
+    <section class="info">
+        <h2>Algumas informações sobre mim</h2>
+        <p>Adoro aprender sobre coisas novas.</p>
+        <p>Sempre estou estudando.</p>
+        <p>Me dou bem trabalhando em grupos.</p>
+        <p>Sou calma e proativa.</p>
+        <p>Sempre estou à disposição.</p>
+        <p>Tenho conhecimentos básicos em programação e quero aprimorar cada vez mais.</p>
+    </section>
 
     <section class="interests">
         <h2>Assuntos que tenho interesse</h2>
@@ -99,13 +97,20 @@
     <section class="music">
         <h2>Algumas músicas que eu curto</h2>
         <p>Confira minha playlist <a href="https://www.youtube.com/playlist?list=PLnUeM-f8Q0Di-ToXOWVkwJ0DNZozLqRFy">aqui</a></p>
+        <img src="https://camo.githubusercontent.com/ac995602886c7204edc98f210119400a0c47f56b3bd3818c053330ddf9da9b34/68747470733a2f2f6d656469612e74656e6f722e636f6d2f494c446d4d76336f30785541414141432f636861642d6d757369632d6d757369632e676966" alt="Música">
     </section>
 
     <section class="contact">
         <h2>Formas de entrar em contato comigo</h2>
         <ul>
-            <li>LinkedIn: <a href="https://www.linkedin.com/in/tais-rodrigues-51729b1b6/">Tais Rodrigues</a></li>
-            <li>Telefone: 11985463127</li>
+            <li>
+                <img class="linkedin-logo" src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="LinkedIn">
+                <a href="https://www.linkedin.com/in/tais-rodrigues-51729b1b6/">Tais Rodrigues</a>
+            </li>
+            <li>
+                <img src="https://i.pinimg.com/1200x/18/23/d4/1823d4eebb057855b7f1df20f119de48.jpg" alt="Telefone">
+                Telefone: 11985463127
+            </li>
         </ul>
     </section>
 </body>
