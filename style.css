@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 55px;
+    background-color: #fff;
+    box-shadow: 0px 0px 0px 0.1px #000;
+    margin-bottom: 20px;
+}
+
+.menu a{
+    width: 120px;
+    height: 30px;
+}
+
+.menu a img{
+    width: 100%;
+    height: 100%;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    background-color: transparent;
+}
+
+.modal{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 510px;
+    background-color: #fff;
+    box-shadow: 0px 0px 1.1px #000;
+    border-radius: 3px;
+}
+
+.modal .titleLogin{
+    display: flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 19px;
+    font-weight: bold;
+    color: #252525;
+    align-items: center;
+    box-shadow: 0px 0.1px #000;
+    padding-left: 40px;
+    width: 100%;
+    height: 70px;
+}
+
+.modal .contInputs{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.modal .contInputs .styleInput{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.modal .contInputs .styleInput .titleInput{
+    display: flex;
+    justify-content: flex-start;
+    width: 80%;
+    margin: 8px;
+}
+
+.modal .contInputs .styleInput .titleInput span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 650;
+    font-size: 13.8px;
+    color: #303030;
+}
+
+.modal .contInputs .styleInput input{
+    width: 80%;
+    height: 39px;
+    padding-left: 10px;
+    border: 2px solid rgb(201, 201, 201);
+    border-radius: 3px;
+}
+
+
+.modal .contInputs .linha{
+    box-shadow: 0px 0.1px #000;
+    width: 80%;
+    height: 10px;
+    margin: 0 auto;
+}
+
+
+.modal .contInputs .contLog{
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.modal .contInputs .contLog button{
+    width: 65px;
+    height: 38px;
+    background-color: #ff2449;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.modal .contInputs .contLog button:hover{
+    background-color: #ff3355;
+}
+
+.modal .contInputs .contLog span{
+    margin-left: 10px;
+    font-size: 13.8px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: gray;
+}
+
+.modal .contInputs .contLog span a{
+    color: rgb(51, 51, 51);
+}
+
+.modal .logGit{
+    padding-top: 20px;
+    padding-left: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 0.1px #000;
+}
+
+.modal .logGit span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 13.8px;
+    color: #303030;
+    margin-bottom: 20px;
+}
+
+.modal .logGit button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 170px;
+    height: 35px;
+    background-color: #fff;
+    border-radius: 3px;
+    border: 1px solid rgb(173, 173, 173);
+    color: gray;
+    margin-bottom: 38px;
+    cursor: pointer;
+}
+
+.modal .logGit button:hover{
+    border: 1px solid gray;
+}
+
+.modal .logGit button img{
+    width: 25px;
+    height: 25px;
+}
+
+.modal .logGit button span{
+    font-size: 13px;
+    font-weight: 0;
+    padding-top: 18px;
+    padding-left: 8px;
+    color: #ff2449;
+}
+
+.modal .question{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    padding-left: 48px;
+    
+}
+
+.modal .question a{
+    color: rgb(51, 51, 51);
+    font-size: 14px;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+footer .pages{
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+footer .pages > *{
+    margin: 15px;
+}
+
+footer .pages a i{
+    font-size: 23px;
+    color: gray;
+}
+
+footer .pages a i:hover{
+    color: #454545;
+}
+
+footer .pages span a{
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    color: gray;
+    font-weight: 600;
+}
+
+footer .pages span a:hover{
+    color: #454545;
+}
+
+footer .copyright{
+    text-align: center;
+}
+
+footer .copyright span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: gray;
+}
+
+footer .copyright span strong{
+    font-weight: normal;
+    margin: 10px;
+}
+
+footer .copyright span a{
+    color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
